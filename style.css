@@ -1,0 +1,101 @@
+body{
+    background-image: url(./assets/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:aliceblue
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time-display{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: rgb(1, 67, 124);
+    width: 400px;
+    height: 10%;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-left: 35px;
+    margin-top: 25px;
+
+}
+.time-display .timer{
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#clock{
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+
+}
+#heading{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+
+
+/* Alarm list styling */
+.time-list{
+    width: 310px;
+    height: 35px;
+    background-color: rgba(75, 115, 172, 0.868);
+    font-size: 25px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.time-list span{
+    margin-left: 10px;
+}
+
+.time-list button{
+    height: 32px;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgb(120, 27, 6);
+    color: rgb(245, 245, 245);
+}
+
+.setAlarmTime{
+    text-align: center;
+}
+.setAlarmTime input{
+    height: 25px;
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    
+}
+.setAlarmTime button{
+    height: 32px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgb(202, 140, 25);
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 40%;
+}
